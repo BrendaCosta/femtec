@@ -87,7 +87,7 @@ button:focus {
 
 .p_120 {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
 }
 
 .pad_top {
@@ -795,9 +795,9 @@ button:focus {
 }
 
 .categories_post:hover .categories_details {
-  background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
+  background-image: -moz-linear-gradient(0deg, rgba(248, 202, 0, 0.8) 0%, rgba(233, 127, 2, 0.8) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(248, 202, 0, 0.8) 0%, rgba(233, 127, 2, 0.8) 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(248, 202, 0, 0.8) 0%, rgba(233, 127, 2, 0.8) 100%);
   background-color: transparent;
 }
 
@@ -1143,9 +1143,9 @@ button:focus {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background-image: -moz-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(188, 43, 255, 0.8) 0%, rgba(114, 73, 251, 0.8) 100%);
+  background-image: -moz-linear-gradient(0deg, rgba(248, 202, 0, 0.8) 0%, rgba(233, 127, 2, 0.8) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(248, 202, 0, 0.8) 0%, rgba(233, 127, 2, 0.8) 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(248, 202, 0, 0.8) 0%, rgba(233, 127, 2, 0.8) 100%);
   color: #fff;
 }
 
