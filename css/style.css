@@ -86,7 +86,7 @@ button:focus {
 }
 
 .p_120 {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -384,7 +384,7 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url(../img/banner/video.gif) no-repeat scroll center center; 
+  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center; 
   background-size: cover;
 }
 
@@ -3961,6 +3961,9 @@ h6 {
 .footer-area {
   background: #04091e;
 }
+.alinhamento{
+  text-align: center;
+}
 
 .single-footer-widget p {
   margin-bottom: 0px;
@@ -4107,7 +4110,7 @@ h6 {
 }
 
 .footer-bottom {
-  padding-top: 85px;
+  padding-top: 1px;
 }
 
 .footer-bottom .footer-text {
@@ -4126,7 +4129,7 @@ h6 {
 }
 
 .footer-bottom .footer-social {
-  text-align: right;
+  text-align: center;
 }
 
 .footer-bottom .footer-social a {
