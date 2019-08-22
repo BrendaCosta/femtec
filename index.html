@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.ico" type="image/png">
-        <title>FEMTEC BAHIA</title>
+        <title>FEMTEC</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -17,16 +17,19 @@
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <!-- puxando fonte do google -->
+        <link href="https://fonts.googleapis.com/css?family=Athiti:400,600&display=swap" rel="stylesheet">
     </head>
     <body>
         
         <!--================Header Menu Area =================-->
+        <section id="home">
         <header class="header_area">
             <div class="main_menu">
             	<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container box_1620">
 						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+						<a class="navbar-brand logo_h" href="index.html">FEMTEC - BA</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -35,13 +38,15 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" id="sobre" href="about-us.html">Sobre</a></li> 
-								<li class="nav-item"><a class="nav-link" href="speakers.html">Palestrantes</a>		
-								
+								<li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+								<li class="nav-item"><a class="nav-link" href="#palestrantes">Palestrantes</a>	
+								<li class="nav-item"><a class="nav-link" href="#programação">Programação</a>
+								<li class="nav-item"><a class="nav-link" href="#locais">Locais</a>	
+								<li class="nav-item"><a class="nav-link" href="#patrocinadores">Patrocinadores</a>
+								<li class="nav-item"><a class="nav-link" href="#patrocinadores">Caravanas</a>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li class="nav-item"><a href="#" class="tickets_btn">Inscrições</a></li>
+								<li class="nav-item"><a href="https://www.even3.com.br/femtecba/" class="tickets_btn">Inscrições</a></li>
 					
 							</ul>
 						</div> 
@@ -49,6 +54,7 @@
             	</nav>
             </div>
         </header>
+        </section>
         <!--================Header Menu Area =================-->
         
         <!--================Home Banner Area =================-->
@@ -66,14 +72,14 @@
         <!--================End Home Banner Area =================-->
         
         <!--================Event Time Area =================-->
-        <section class="event_time_area" >
+        <section class="event_time_area" id="sobre">
         	<div class="container">
         		<div class="event_time_inner">
         			<div class="row">
         				<div class="col-lg-6">
         					<div class="event_text">
-        						<h3>Esperamos vocês em: </h3>
-        						<p>Estamos super animadas para o evento que já estamos na contagem regressiva! </p>
+        						<h3>Faltam: </h3>
+        						<p>Para o Festival mais lindo desse ano. Esperamos você lá!</p>
         					</div>
         				</div>
         				<div class="col-lg-6">
@@ -105,7 +111,7 @@
         <!--================End Event Time Area =================-->
         
         <!--================Welcome Area =================-->
-        <section class="welcome_area pad_btm" id="sobre">
+        <section class="welcome_area pad_btm">
         	<div class="container">
         		<div class="welcome_inner row">
         			<div class="col-lg-5">
@@ -115,9 +121,10 @@
         			</div>
         			<div class="col-lg-6 offset-lg-1">
         				<div class="welcome_text">
-        					<h3>Bem vinda!</h3>
+        					<h3>Sobre o evento</h3>
+        					<p>O Festival Baiano de Mulheres na Tecnologia é um modelo de evento criado pelas comunidades ProgramAda e OxenTI Menina, localizados em Feira de Santana e Salvador, respectivamente. Ele ocorre dentro de várias empresas simultaneamente, em um mesmo dia e mesma cidade. Nele, todas as palestrantes e facilitadoras são mulheres e o público é aberto para qualquer pessoa que queira aprender, apoiar e envolver-se em nossa causa, com preferência para mulheres e LGBT+.</p>
         					<p>Queremos aumentar a participação das mulheres na tecnologia e por isso, estamos criando um ambiente colaborativo para que possamos entender os desafios, fortalecer nossa comunidade, capacitar e oferecer oportunidades de trabalho na área de T.I..</p>
-        					<a class="main_btn" href="about-us.html">Mais informações</a>
+        					<a class="main_btn" href="https://www.even3.com.br/participante/trabalhocientifico/">Submeta sua atividade!</a>
         				</div>
         			</div>
         		</div>
@@ -126,12 +133,12 @@
         <!--================End Welcome Area =================-->
         
         <!--================PALESTRANTES =================-->
-        <section class="team_area p_120">
+        <section class="team_area p_120" id="palestrantes">
         	<div class="container">
         		<div class="main_title">
         			<h2>Palestrantes</h2>
 					<p>Repara só as mulheres que toparam dominar o mundo com a gente!</p>
-					<a class="main_btn" href="speakers.html">ver todas!</a>
+					<a class="main_btn" href="speakers.html">Ver todas!</a>
         		</div>
         		<div class="row team_inner">
         			<div class="col-lg-3 col-sm-6">
@@ -206,7 +213,7 @@
         <!--================End Team Area =================-->
         
         <!--================PROGRAMAÇÃO =================-->
-        <section class="event_schedule_area p_120">
+        <section class="event_schedule_area p_120" id="programação">
         	<div class="container">
         		<div class="main_title">
         			<h2>PROGRAMAÇÃO</h2>
@@ -470,7 +477,7 @@
         <!--================End Event Schedule Area =================-->
         
         <!--================End Event Schedule Area =================-->
-        <section class="home_map_area">
+        <section class="home_map_area" id="locais">
         	<div id="mapBox2" class="mapBox2" 
 				data-lat="-12.8767614" 
 				data-lon="-38.4860544" 
@@ -516,10 +523,10 @@
         <!--================End Event Schedule Area =================-->
         
         <!--================Price Area =================-->
-        <section class="price_area p_120">
+        <section class="price_area p_120" id="patrocinadores">
         	<div class="container">	
         		<div class="main_title">
-        			<h2>PARCEIROS</h2>
+        			<h2>PATROCINADORES</h2>
         			<p>A galera que topou dominar o mundo com a gente!
 					</br>Nosso muito obrigada!
 					</p>
@@ -605,7 +612,8 @@
             
         <div class="row footer-bottom d-flex justify-content-between align-items-center alinhamento">
                 <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				Festival Baiano de Mulheres na Tecnologia - 2019 | Salvador - BA, Brasil | 26 de Outubro <i class="fa fa-heart-o" aria-hidden="true"></i> 
+				<p>By <a href="https://colorlib.com" target="_blank">OxenTI Menina!</a> & <a href="https://colorlib.com" target="_blank">ProgramAda</a></p>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         			<div class="col-lg-4 col-md-4 footer-social alinhamento">
                         <a href="https://www.instagram.com/femtecba"><i class="fa fa-instagram"></i></a>
