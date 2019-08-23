@@ -1,10 +1,16 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date();
 
-// set date to 10 days in the future for testing purposes
-timer.countdownDate.setDate( timer.countdownDate.getDate() + 79 );
+//datas do futuro, um bug no mês, se for mês 10, só fica correto se pôr mês 9.
+var years = 2019;
+var months = 09;
+var days = 26;
+var hours = 8;
+var minutes = 59;
+var seconds = 59;
+timer.countdownDate = new Date(years, months, days, hours, minutes, seconds);
+
 
 /*
 * Get thing started
