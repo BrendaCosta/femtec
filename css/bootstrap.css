@@ -5331,7 +5331,8 @@ input[type=submit].btn-block {
 
 .media-body {
     -ms-flex: 1;
-    flex: 1
+    flex: 1;
+    text-align: left;
 }
 
 .list-group {

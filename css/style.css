@@ -899,9 +899,9 @@ button:focus {
 .blog_right_sidebar .widget_title {
   font-size: 18px;
   line-height: 25px;
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
+  background-image: -webkit-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
+  background-image: -ms-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
   text-align: center;
   color: #fff;
   padding: 8px 0px;
@@ -918,9 +918,9 @@ button:focus {
   padding-left: 20px;
   border-radius: 45px;
   z-index: 0;
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
+  background-image: -webkit-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
+  background-image: -ms-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
 }
 
 .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
@@ -1115,9 +1115,9 @@ button:focus {
 }
 
 .blog_right_sidebar .newsletter_widget .bbtns {
-  background-image: -moz-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -webkit-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
-  background-image: -ms-linear-gradient(0deg, #bc2bff 0%, #7249fb 100%);
+  background-image: -moz-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
+  background-image: -webkit-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
+  background-image: -ms-linear-gradient(0deg, #f8ca00 0%, #e97f02 100%);
   color: #fff;
   font-size: 12px;
   line-height: 38px;
@@ -1585,12 +1585,15 @@ button:focus {
   background: linear-gradient(to right, #f8ca00 0%, #e97f02 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 .home_map_area .home_details .box_home_details .media .media-body h4 {
   font-size: 14px;
   color: #222222;
   text-transform: uppercase;
+  text-align: left !important;
+  
 }
 
 .home_map_area .home_details .box_home_details .media .media-body p {
