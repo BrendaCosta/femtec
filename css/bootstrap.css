@@ -4487,12 +4487,12 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, .9)
+    color: rgba(255, 255, 255, .9)
 }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-    color: rgba(0, 0, 0, .9)
+    color: rgba(255, 255, 255, .9)
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -5585,7 +5585,7 @@ button.close {
 
 .modal-open .modal {
     overflow-x: hidden;
-    overflow-y: auto
+    overflow-y: hidden;
 }
 
 .modal {
