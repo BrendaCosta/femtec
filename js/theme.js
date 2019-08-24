@@ -366,6 +366,58 @@
 				}
 			]
         });
+
+    var locations = [
+        ['Sanar', -12.9785603,-38.4565531, 1],
+        ['Cubos Tecnologia', -12.9785603,-38.4565531, 2],
+        ['Solutis tecnologia', -12.9785603,-38.4565531, 3]
+    ];
+
+    var i;
+
+    var marker = new Array;
+
+    for (i = 0; i < locations.length; i++) {  
+        marker.push  ({
+            lat: locations[i][1],
+            lng: locations[i][2],
+            title: locations[i][0]
+        });
+    }
+    map.addMarkers(marker);
+
+
+        // var m = map.addMarker({
+        //   lat: -12.9785603,
+        //   lng: -38.4565531,
+        //   title: 'Sana',
+        //   infoWindow: {
+        //     content: '<h4>Sanar</h4>',
+        //     maxWidth: 100
+        //   }
+        // });
+
+
+
+        // var m1 = map.addMarker({
+        //   lat: -12.9785603,
+        //   lng: -38.4565531,
+        //   title: 'Cubos Tecnologia',
+        //   infoWindow: {
+        //     content: '<h4>Cubos Tecnologia</h4>',
+        //     maxWidth: 100
+        //   }
+        // });
+
+        // var m2 = map.addMarker({
+        //   lat: -12.9785603,
+        //   lng: -38.4565531,
+        //   title: 'Solutis',
+        //   infoWindow: {
+        //     content: '<h4>Solutis</h4>',
+        //     maxWidth: 100
+        //   }
+        // });
     }
 	
 
