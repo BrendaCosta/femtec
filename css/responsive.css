@@ -166,7 +166,7 @@
 		margin-left: 0px;
 	}
 	.home_banner_area {
-		/*min-height: 700px;*/
+		min-height: 700px;
 		width: auto;
   		height: auto;
 	}
@@ -189,7 +189,7 @@
 		margin: 0px auto 50px;
 	}
 }
-@media (max-width:767px){
+@media (max-width:200px){
 	.home_banner_area {
 		min-height: 500px;
 	}
