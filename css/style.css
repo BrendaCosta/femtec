@@ -75,6 +75,8 @@ body {
   font-weight: normal;
   color: #777777;
   text-align: justify;
+  overflow-x: hidden;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -144,7 +146,7 @@ button:focus {
 }
 
 .main_title p {
-  font-size: 16px;
+  font-size: 24px;
   font-family: "Athiti", sans-serif;
   line-height: 26px;
   color: #777777;
@@ -184,10 +186,14 @@ button:focus {
   padding: 0px;
   border: 0px;
   border-radius: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header_area .navbar .nav .nav-item {
   margin-right: 40px; 
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
@@ -196,6 +202,8 @@ button:focus {
   color: #fff;
   padding: 0px;
   display: inline-block;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .header_area .navbar .nav .nav-item .nav-link:after {
@@ -3361,6 +3369,7 @@ h6 {
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
+  margin-top: 25px
 }
 
 .main_btn:hover {
@@ -3805,7 +3814,7 @@ h6 {
 .team_item .team_name h4 {
   margin-bottom: 5px;
   color: #222222;
-  font-family: "Roboto", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-weight: 500;
   font-size: 20px;
   -webkit-transition: all 300ms linear 0s;
@@ -3815,7 +3824,7 @@ h6 {
 
 .team_item .team_name p {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Athiti", sans-serif;
   color: #777777;
   margin-bottom: 0px;
 }
