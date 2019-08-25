@@ -167,7 +167,7 @@
 	}
 	.home_banner_area {
 		/*min-height: 700px;*/
-		max-width: 100%;
+		width: auto;
   		height: auto;
 	}
 	.event_time_inner .event_text {
