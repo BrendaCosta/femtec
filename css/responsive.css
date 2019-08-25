@@ -1,6 +1,4 @@
-body {
-	overflow-x: hidden;
-}
+
 @media (max-width:1619px){
 	/* Main Menu Area css
 	============================================================================================ */
@@ -46,9 +44,6 @@ body {
         margin-top: 27px;
         margin-bottom: 23px;
 	}
-	
-
-	
 
 	.header_area .navbar {
 		background-image: -moz-linear-gradient( 0deg, rgb(248, 202, 0) 0%, rgb(233, 127, 2 100%);
@@ -171,7 +166,9 @@ body {
 		margin-left: 0px;
 	}
 	.home_banner_area {
-		min-height: 700px;
+		/*min-height: 700px;*/
+		max-width: 100%;
+  		height: auto;
 	}
 	.event_time_inner .event_text {
 		padding-left: 25px;
