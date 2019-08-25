@@ -4,6 +4,9 @@
    .header_area .navbar .search {
 		margin-left: 40px;
 	}
+	.body{
+		overflow-x: hidden;
+	}
 	/* End Main Menu Area css
 	============================================================================================ */
 }
