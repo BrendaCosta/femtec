@@ -396,7 +396,6 @@ button:focus {
   display: flex;
   background: url(../img/banner/home-banner.png) no-repeat scroll center center; 
   background-size: cover;
-  max-width:100% !important;
 }
 
 
