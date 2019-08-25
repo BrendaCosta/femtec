@@ -76,6 +76,10 @@ body {
   color: #777777;
   text-align: justify;
   overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 
 }
 
@@ -179,6 +183,8 @@ button:focus {
   -webkit-transition: background 0.4s, all 0.3s linear;
   -o-transition: background 0.4s, all 0.3s linear;
   transition: background 0.4s, all 0.3s linear;
+   overflow: auto;
+  zoom: 1;
 }
 
 .header_area .navbar {
@@ -202,8 +208,6 @@ button:focus {
   color: #fff;
   padding: 0px;
   display: inline-block;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .header_area .navbar .nav .nav-item .nav-link:after {
@@ -393,11 +397,15 @@ button:focus {
 .home_banner_area {
   z-index: 1;
   min-height: 900px;
+  max-width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: url(../img/banner/home-banner.png) no-repeat scroll center center; 
   background-size: cover;
+  overflow: auto;
+  zoom: 1;
 }
 
 
@@ -829,7 +837,7 @@ button:focus {
 }
 
 .blog_info .post_tag a {
-  font: 300 14px/21px "Roboto", sans-serif;
+  font: 300 14px/21px "Athiti", sans-serif;
   color: #222222;
 }
 
@@ -842,7 +850,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a {
-  font: 300 14px/20px "Roboto", sans-serif;
+  font: 300 14px/20px "Athiti", sans-serif;
   color: #777777;
   vertical-align: middle;
   padding-bottom: 12px;
@@ -3670,10 +3678,13 @@ h6 {
   padding: 0px 50px;
   line-height: 80px;
   color: #fff;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: "Athiti", sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  margin-right: 95px;
+  margin-left: 95px;  
 }
 
 .event_schedule_inner .nav-tabs li a.active, .event_schedule_inner .nav-tabs li a:hover {
