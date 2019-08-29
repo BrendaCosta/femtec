@@ -1,11 +1,9 @@
-
 @media (max-width:1619px){
 	/* Main Menu Area css
 	============================================================================================ */
    .header_area .navbar .search {
 		margin-left: 40px;
 	}
-
 	/* End Main Menu Area css
 	============================================================================================ */
 }
@@ -23,8 +21,6 @@
 	============================================================================================ */
 	.home_banner_area .banner_inner {
 		padding: 100px 0px;
-		max-width: 100%;
-  		height: auto;
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
@@ -43,12 +39,11 @@
         cursor: pointer;
         margin-top: 27px;
         margin-bottom: 23px;
-	}
-
+    }
 	.header_area .navbar {
-		background-image: -moz-linear-gradient( 0deg, rgb(248, 202, 0) 0%, rgb(233, 127, 2 100%);
-		background-image: -webkit-linear-gradient( 0deg, rgb(248, 202, 0) 0%, rgb(233, 127, 2) 100%);
-		background-image: -ms-linear-gradient( 0deg, rgb(248, 202, 0) 0%, rgb(233, 127, 2) 100%);
+		background-image: -moz-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
+		background-image: -webkit-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
+		background-image: -ms-linear-gradient( 0deg, rgb(20,29,162) 0%, rgb(155,92,246) 100%);
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -167,8 +162,6 @@
 	}
 	.home_banner_area {
 		min-height: 700px;
-		width: auto;
-  		height: auto;
 	}
 	.event_time_inner .event_text {
 		padding-left: 25px;
@@ -189,7 +182,7 @@
 		margin: 0px auto 50px;
 	}
 }
-@media (max-width:200px){
+@media (max-width:767px){
 	.home_banner_area {
 		min-height: 500px;
 	}
