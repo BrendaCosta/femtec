@@ -126,6 +126,19 @@ button:focus {
 
 /* Main Title Area css
 ============================================================================================ */
+.title-primary {
+  font-size: 190px;
+  font-family: "Athiti", sans-serif;
+  color: #FFE081;
+}
+
+.subtitle-primary {
+  font-size: 30px;
+  font-family: "Athiti", sans-serif;
+  letter-spacing: 2px;
+  line-height: 0px;
+}
+
 .main_title {
   text-align: center;
   margin-bottom: 75px;
@@ -380,12 +393,13 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  min-height: 900px;
+  min-height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: url(../img/banner/home-banner.png) no-repeat scroll center center;
   background-size: cover;
+  padding-bottom: 10%;
 }
 
 .home_banner_area .banner_inner {
