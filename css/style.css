@@ -1,4 +1,4 @@
-/*----------------------------------------------------
+----------------------------------------------------
 @File: Default Styles
 @Author: Rocky Ahmed
 @URL: http://wethemez.com
@@ -127,7 +127,7 @@ button:focus {
 /* Main Title Area css
 ============================================================================================ */
 .title-primary {
-  font-size: 190px;
+  font-size: 150px;
   font-family: "Athiti", sans-serif;
   color: #FFE081;
 }
@@ -137,6 +137,33 @@ button:focus {
   font-family: "Athiti", sans-serif;
   letter-spacing: 2px;
   line-height: 0px;
+}
+
+@media (max-width: 420px){
+  .title-primary {
+    font-size: 22px;
+  }
+  .subtitle-primary {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 900px){
+  .title-primary {
+    font-size: 30px;
+  }
+  .subtitle-primary {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1200px){
+  .title-primary {
+    font-size: 60px;
+  }
+  .subtitle-primary {
+    font-size: 10px;
+  }
 }
 
 .main_title {
@@ -4182,4 +4209,4 @@ max-width: 250px;
 
 /*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map 
