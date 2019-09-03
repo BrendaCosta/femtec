@@ -1569,14 +1569,7 @@ button:focus {
 }
 
 .home_map_area .home_details {
-  position: absolute;
-  right: 0px;
   width: 100%;
-  z-index: 10;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .home_map_area .home_details .box_home_details {
@@ -1590,6 +1583,8 @@ button:focus {
   padding-bottom: 112px;
   border-radius: 10px;
 }
+
+
 
 .home_map_area .home_details .box_home_details .media {
   margin-bottom: 26px;
