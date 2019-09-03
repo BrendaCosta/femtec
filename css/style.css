@@ -157,15 +157,6 @@ button:focus {
   }
 }
 
-@media (max-width: 1200px){
-  .title-primary {
-    font-size: 60px;
-  }
-  .subtitle-primary {
-    font-size: 10px;
-  }
-}
-
 .main_title {
   text-align: center;
   margin-bottom: 75px;
