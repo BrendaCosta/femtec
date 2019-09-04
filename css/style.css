@@ -4230,6 +4230,17 @@ margin: 30px;
 max-width: 250px;
 }
 
+
+.alinhamento{
+  text-align: center;
+}
+
+.borda{
+  display: -webkit-flex;
+    display: flex;
+    
+ 
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map 
