@@ -4238,9 +4238,9 @@ max-width: 250px;
 .borda{
   display: -webkit-flex;
     display: flex;
-    
- 
 }
+
+iframe, embed{max-width: 100%;}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map 
