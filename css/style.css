@@ -3398,9 +3398,9 @@ h6 {
   background-image: linear-gradient(to right, #ffe081 0%, #ffcd34 51%, #ffe081 100%);
   background-size: 200% auto;
   padding: 0px 35px;
-  color: #fff;
+  color: #603A75;
   font-family: "Athiti", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 50px;
   border-radius: 5px;
@@ -3416,7 +3416,7 @@ h6 {
 
 .main_btn:hover {
   background-position: right center;
-  color: #fff;
+  color: #24a1d7;
 }
 
 .main_btn2 {
@@ -3567,9 +3567,9 @@ h6 {
   background-image: linear-gradient(to right, #ffe081 0%, #ffcd34 51%, #ffe081 100%);
   background-size: 200% auto;
   padding: 0px 28px;
-  color: #fff;
+  color: #603A75;
   font-family: "Athiti", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 900;
   line-height: 40px;
   border-radius: 3px;
@@ -3585,7 +3585,7 @@ h6 {
 
 .tickets_btn:hover {
   background-position: right center;
-  color: #fff;
+  color: #24a1d7;
 }
 
 /* End Main Button Area css
@@ -4241,6 +4241,11 @@ max-width: 250px;
 }
 
 iframe, embed{max-width: 100%;}
+
+/*.text-center {
+   text-align: justify;
+  text-justify: inter-word;
+}*/
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map 
