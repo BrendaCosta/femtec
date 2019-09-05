@@ -267,6 +267,10 @@
 	.main_title h2 {
 		font-size: 25px;
 	}
+
+	.main_title h3 {
+ 		margin: -20px auto -45px auto;
+	}
 	/* Elements Area css
 	============================================================================================ */
 	.sample-text-area {
