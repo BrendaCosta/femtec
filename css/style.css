@@ -71,6 +71,17 @@ Table of Content:
   
 }
 
+.ml-auto a:hover {
+  background: rgba(0,0,0,.2);
+  border-radius: 14px;
+}
+
+
+.apoio a:hover
+{
+  opacity:0.5;
+}
+
 
 .list {
   list-style: none;
@@ -182,7 +193,7 @@ button:focus {
     overflow-x: hidden;
   }
   .title-primary {
-    font-size: 30px;
+    font-size: 58px;
   }
   .subtitle-primary {
     font-size: 10px;
@@ -399,7 +410,7 @@ button:focus {
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-  line-height: 30px;
+  line-height: 75px;
 }
 
 .top_menu {
@@ -605,7 +616,7 @@ button:focus {
 
 .banner_area .banner_inner .banner_content .page_link a:before {
   content: "\f0da";
-  font: normal normal normal 14px/1 FontAwesome;
+  font-family: normal normal normal 14px/1 FontAwesome;
   position: absolute;
   right: -25px;
   top: 50%;
@@ -4170,28 +4181,28 @@ h6 {
 /*
 .footer-bottom {
   padding-top: 85px;
-}*/
+  }*/
 
-.footer-bottom .footer-text {
-  color: #fff;
-  opacity: .6;
-}
+  .footer-bottom .footer-text {
+    color: #fff;
+    opacity: .6;
+  }
 
-.footer-bottom .footer-text i {
-  color: #ffe081;
-  opacity: 1;
-}
+  .footer-bottom .footer-text i {
+    color: #ffe081;
+    opacity: 1;
+  }
 
-.footer-bottom .footer-text a {
-  color: #ffe081;
-  opacity: 1;
-}
+  .footer-bottom .footer-text a {
+    color: #ffe081;
+    opacity: 1;
+  }
 
-.footer-bottom .footer-social {
- /* text-align: right; */
-}
+  .footer-bottom .footer-social {
+   /* text-align: right; */
+ }
 
-.footer-bottom .footer-social a {
+ .footer-bottom .footer-social a {
   font-size: 14px;
   line-height: 30px;
   color: #fff;
@@ -4222,32 +4233,32 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
 
-} */
+  } */
 
 
-.partner{
-max-height: 250px;
-margin: 30px;
-max-width: 250px;
-}
+  .partner{
+    max-height: 250px;
+    margin: 30px;
+    max-width: 250px;
+  }
 
 
-.alinhamento{
-  text-align: center;
-}
+  .alinhamento{
+    text-align: center;
+  }
 
-.borda{
-  
+  .borda{
+
     display: block;
     margin: 15px 0;
     text-align: center;
-}
+  }
 
-iframe, embed{max-width: 100%;}
+  iframe, embed{max-width: 100%;}
 
-.text-center {
+  .text-center {
    text-align: center;
-}
-/*---------------------------------------------------- */
+ }
+ /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map 
