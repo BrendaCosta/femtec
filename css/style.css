@@ -214,6 +214,10 @@ button:focus {
   text-transform: uppercase;
 }
 
+.main_title h3 {
+  margin: -10px auto -75px auto;
+}
+
 .main_title p {
   font-size: 18px;
   font-family: "Athiti", sans-serif;
