@@ -4216,12 +4216,13 @@ h6 {
 .alinhamento{
   text-align: center;
 }
+/*
 .apoio{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
-}
+} */
 
 
 .partner{
@@ -4236,8 +4237,10 @@ max-width: 250px;
 }
 
 .borda{
-  display: -webkit-flex;
-    display: flex;
+  
+    display: block;
+    margin: 15px 0;
+    text-align: center;
 }
 
 iframe, embed{max-width: 100%;}
