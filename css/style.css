@@ -181,7 +181,7 @@ button:focus {
 }
 
 @media (max-width: 992px){
-  .body{
+  body, .inside{
     overflow-x: hidden;
   }
   .title-primary {
