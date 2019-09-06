@@ -45,6 +45,11 @@ Table of Content:
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
+* {
+  padding:0;
+  margin:0;
+}
+
 /*Tornando vídeo da seção Sobre responsivo*/
 @media (max-width: 900px) {
   .embed-container { 
@@ -112,10 +117,7 @@ body {
   font-weight: normal;
   color: #777777;
   overflow-x: hidden;
-  width: 100%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
