@@ -45,11 +45,6 @@ Table of Content:
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
-* {
-  padding:0;
-  margin:0;
-}
-
 /*Tornando vídeo da seção Sobre responsivo*/
 @media (max-width: 900px) {
   .embed-container { 
@@ -117,7 +112,6 @@ body {
   font-weight: normal;
   color: #777777;
   overflow-x: hidden;
-  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -186,6 +180,9 @@ button:focus {
 }
 
 @media (max-width: 420px){
+  .body{
+    overflow-x: hidden;
+  }
   .title-primary {
     font-size: 22px;
   }
@@ -195,6 +192,9 @@ button:focus {
 }
 
 @media (max-width: 900px){
+  .body{
+    overflow-x: hidden;
+  }
   .title-primary {
     font-size: 58px;
   }
