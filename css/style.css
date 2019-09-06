@@ -180,6 +180,9 @@ button:focus {
 }
 
 @media (max-width: 420px){
+  .body {
+    overflow-x: hidden;
+  }
   .title-primary {
     font-size: 22px;
   }
