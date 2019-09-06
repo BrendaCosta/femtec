@@ -179,24 +179,12 @@ button:focus {
   line-height: 0px;
 }
 
-@media (max-width: 420px){
+@media (max-width: 992px){
   .body{
     overflow-x: hidden;
   }
   .title-primary {
-    font-size: 22px;
-  }
-  .subtitle-primary {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 900px){
-  .body{
-    overflow-x: hidden;
-  }
-  .title-primary {
-    font-size: 58px;
+    font-size: 48px;
   }
   .subtitle-primary {
     font-size: 10px;
