@@ -24,7 +24,8 @@
 	display: block;
 	width:90%;
 	padding:30px;
-	background-color:#FFF;
+	background-color:#e6ca74;
+	color: #ea0055;
 	margin:200px auto;
 	position:relative;
 	overflow:hidden;
@@ -39,7 +40,7 @@
 	top:15px;
 	right:14px;
 	z-index:15;
-	background-color:#FFF;
+	background-color:#dba73c;
 	border:none;
 	line-height:1;
 	-webkit-transition:all .2s;
@@ -67,4 +68,8 @@
 	margin:0 auto;
 	max-width:100%;
 	text-align:center;
+}
+
+.gt-modal p {
+	color: #3e3042;
 }
