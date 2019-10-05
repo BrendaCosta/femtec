@@ -1,0 +1,70 @@
+[data-modal]{
+	cursor:pointer;
+}
+
+.modal{
+	max-width:500px;
+}
+
+.gt-modal{
+	position:fixed;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.7);
+	margin:0;
+	z-index:10;
+	display:none;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.gt-modal .modal{
+	display: block;
+	width:90%;
+	padding:30px;
+	background-color:#FFF;
+	margin:200px auto;
+	position:relative;
+	overflow:hidden;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-webkit-border-radius:3px
+}
+
+.gt-modal .modal-close{font-size:35px;
+	position:absolute;
+	top:15px;
+	right:14px;
+	z-index:15;
+	background-color:#FFF;
+	border:none;
+	line-height:1;
+	-webkit-transition:all .2s;
+	-moz-transition:all .2s;
+	transition:all .2s;
+}
+	
+.gt-modal .modal-close:hover{
+	color:#AAA;
+}
+
+.gt-modal .modal-body{
+	overflow-y:auto;
+	max-height:calc(100% - 120px);
+}
+
+.gt-modal .modal-body.gallery{
+	width:100%;
+	height:100%;
+}
+
+.gt-modal .modal-body.gallery img{
+	width:auto;
+	height:98%;
+	margin:0 auto;
+	max-width:100%;
+	text-align:center;
+}

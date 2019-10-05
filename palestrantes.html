@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/modal.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
@@ -85,7 +86,7 @@
         			<p>As mulheres que toparam dominar o mundo com a gente!</p>
 				</div>
 				<div class="row team_inner">
-        			<div class="col-lg-3 col-sm-6">
+        			<div class="col-lg-3 col-sm-6" data-modal="Ana_Helen">
         				<div class="team_item">
         					<div class="team_img">
         						<img class="img-fluid" src="img/palestrantes/Ana_Helen.jpg" alt="">
@@ -98,8 +99,25 @@
 								<p> Empreendedorismo e a Inserção da Mulher como líder dentro de uma Universidade.</p>
 							</div>
         				</div>
-					</div>					
-					  
+					</div>	
+
+                <div class="gt-modal">
+                    <div id="Ana_Helen" class="modal">
+                        <button class="modal-close" type="button">×</button>
+                        <div class="modal-body">
+                            <h3>Empreendedorismo e a Inserção da Mulher como líder dentro de uma Universidade.</h3>
+                            <p></p>
+                            <h4>Sobre a palestrante:</h4>
+                            <p></p>
+                            <h4>Sobre a palestra:</h4>
+                        </div>
+                    </div>	
+                </div>		
+
+                <div class="teste">
+                    <div class="teste1"></div>
+                </div>
+					
 				       		
         			<div class="col-lg-3 col-sm-6">
         				<div class="team_item">
@@ -465,6 +483,7 @@
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/modal.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/stellar.js"></script>
